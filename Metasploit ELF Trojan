@@ -1,0 +1,34 @@
+Malware: Metasploit
+MD5: 5835f0f043b0e134140c477fc64f2031
+SHA-1: b2610f5a9216d09d89be5cac3b5496ef769f4fde
+SHA-256: 9cd117c3269a18e324340c8c97d23e64c3f06ed10e8d610f955a78f16e88ada0
+Vhash: 4d3ca5e4ce5f86dfdd7e531cabc4e020
+SSDEEP: 3:Bnks//xlEldl1llXllS/rltll3llvln/lalNll96zclQvZBFQKsP8tzWNl3C3TH:BnX//In8/r14CfvZBFQKs1w3T
+
+URL: http://144.202.113.101:8888/
+IP: 144.202.113.101
+ASN: AS20473
+ASN HOSTING: VULTR
+
+
+Description: A Metasploit ELF Trojan is disguised as Byte Wallet hosted with US server.
+=============================================================================================================================================================================================================================
+
+Malware: Metasploit, MSFVenom, ConnectBack
+MD5: eec970a0166f8eab2c0797a3dcf0fe6a
+SHA-1: ca11f1a358ad958e64281994c852a6e9ea5d50d0
+SHA-256: 5446764ea20b3180e7938da5e491a0b185833e438729a125549a307cfb0c1e51
+Vhash: 4d3ca5e4ce5f86dfdd7e531cabc4e020
+SSDEEP: 3:Bnks//xlEldl1llXllS/rltll3llvlfXwvlltPNTSiPHZYC1E3N0eDPFQqoRQC+p:BnX//In8/r1GBxH2TZQ3RQdygg5XJYD
+TLSH: T117D080330B4AC0DED6D4063F6574597CE77BD5B5474C66310810DC051C1A6446F63C75 
+
+URL: http://195.133.52.50:8001/
+IP: 195.133.52.50
+ASN: AS49392
+ASN HOSTING: LLC Baxet 
+
+Description: A Metasploit ELF Trojan discovred hosted on a Russian Server. However, most of the packages used/discussed belongs to China as strong presence of Chinese Characters found. This file was found along with other
+files which are previously seen. Hence, not updating here. 
+==============================================================================================================================================================================================================================
+
+

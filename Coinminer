@@ -7,5 +7,9 @@ Description: Found traces of CoinMiner and JNDI Exploit Kit Rule got triggererd 
 URL: http://47.103.44.184:9002/ 
 IP: 47.103.44.184
 Country: China
+ASN: AS37963
+AS Name: Hangzhou Alibaba Advertising Co.,Ltd.
 
-Submitted to AbuseCH: https://bazaar.abuse.ch/sample/928e769c4b19782937b01fd9af0affef4575880fc3666f99f4f5d6ec2c605920/
+Description: Highly malicious AS Records with Cobalt Strike topping the list
+
+Contributed to AbuseCH: https://bazaar.abuse.ch/sample/928e769c4b19782937b01fd9af0affef4575880fc3666f99f4f5d6ec2c605920/

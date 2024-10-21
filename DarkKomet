@@ -31,3 +31,7 @@ b9eae90f8e942cc4586d31dc484f29079651ad64c49f90d99f86932630c66af2: More fingerpri
 8e574b4ae6502230c0829e2319a6c146aebd51b7008bf5bbfb731424d7952c15: Malicious
 a14e70ed824f3f17d3a51136aa08839954d6d3ccadaa067415c7bfc08e6636b0: Contacted files are malicious, Trickbot also observed
 85f6fa8b937925722f2daca9091fbbfbabe54189e016fd51ecc79e2d941ad045
+
+Submitted to: 
+https://www.virustotal.com/gui/file/437f3ab18f1886045732f150fddaa23db1e97687d4ecb826c7bd128586c19396/detection
+https://bazaar.abuse.ch/sample/437f3ab18f1886045732f150fddaa23db1e97687d4ecb826c7bd128586c19396/

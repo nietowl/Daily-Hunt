@@ -1,11 +1,17 @@
 MD5: fa2efb3b704384a5fe40b382738657c1
 SHA-1: 20034f787772f74a0cb8b07b229e5805755c1e24
 SHA-256: 2457a3241ec13c77b4132d6c5923e63b51a4d05a96dc0ae249c92a43ed9c7c04
+
 Malware: Lotok Backdoor
+FileName: mysq1.exe
+Found: http://46.17.43.250:8081/
+IP: 46.17.43.250
+Country: Russia
+ASN: AS51659
+ASN Name:  LLC Baxet
 
 INTERNALS
 =========
-FileName: mysq1.exe
 Compiled: Go (1.15.0-X.XX.X)
 Data Encoded: XOR, Base64
 Hash: Murmur3

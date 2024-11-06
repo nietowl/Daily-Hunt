@@ -1,6 +1,7 @@
 Following are the IOCs observed for XWorm which is having the filename as "XClient.exe"
 
-bb742b8bbfa3691e17a2fcbc633e6298
+MD5: bb742b8bbfa3691e17a2fcbc633e6298
+
 5.101.152.4
 140.82.121.3
 185.199.111.133
@@ -104,6 +105,12 @@ bb742b8bbfa3691e17a2fcbc633e6298
 178.208.92.51
 69.31.136.53
 59.11.246.253
+49.232.20.75
+85.203.4.238
+38.153.61.81
+156.225.129.219
+94.156.6.109
+
 https://154.197.69.165/XClient.exe
 klayner.beget.tech/cgi-bin/XClient.exe
 github.com/bypick/Pitch/raw/main/XClient.exe

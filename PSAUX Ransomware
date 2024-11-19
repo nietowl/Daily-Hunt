@@ -1,0 +1,43 @@
+INCIDENT 
+RCE (Command Injection Vulnerability) in CyberPanel leads to Ransomware Attack: CVE-2024-51378
+CVSS 10.0 (Critical)
+
+.psaux -> Custom ransomware, script based, decryptor available
+.encryp -> Variant from Babuk's source, decryptor available
+.locked -> C3RB3R Conti v3-based Ransomware, decryptor status unknown
+
+EXPLANATION: 
+The vulnerability allows remote attackers to bypass authentication and execute arbitrary commands by circumventing security middleware (which is only used for a POST request) and using shell metacharacters in the 
+status file property.
+
+WHAT IS IT? 
+CyberPanel is an open-source web hosting control panel built specifically to work with the LiteSpeed Web Server. 
+CyberPanel is typically accessible over the public internet through a web based interface on TCP/8090 by default.
+
+IOC
+===
+Here is the list of IPs which got infected by this Ransomware Attack
+
+54.37.87.6
+64.227.160.78
+144.91.109.68
+77.68.81.128
+52.55.130.60
+157.245.109.196
+194.58.109.10
+65.21.1.55 
+162.240.70.6 
+204.216.156.14
+193.34.144.201 
+137.184.225.107
+52.55.130.60
+64.227.160.78
+208.97.137.1
+173.236.178.82
+176.223.128.73
+54.37.87.6
+195.110.124.133
+95.154.204.180
+162.255.119.254
+
+

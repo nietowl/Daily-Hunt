@@ -2,6 +2,8 @@ INCIDENT
 RCE (Command Injection Vulnerability) in CyberPanel leads to Ransomware Attack: CVE-2024-51378
 CVSS 10.0 (Critical)
 
+REFERENCE: https://gist.github.com/gboddin/d78823245b518edd54bfc2301c5f8882?permalink_comment_id=5261370
+
 .psaux -> Custom ransomware, script based, decryptor available
 .encryp -> Variant from Babuk's source, decryptor available
 .locked -> C3RB3R Conti v3-based Ransomware, decryptor status unknown

@@ -1,0 +1,40 @@
+Entry Point of the new Akira Ransomware Sample is 577624 (0x8d058). 
+
+Found 16 new AKIRA Samples with same Entry Point!
+
+If you are battling new Akira Ransomware, here are some facts:-
+
+💡Found 16 new samples of Akira Ransomware, which was created on 21st August, 2024
+💡All these samples began to appear in late September to December 2024 (currently).
+💡All these files are sized at 1.02MB
+💡Mutexes: _SHuassist.mtx, C20CD437-BA6D-4ebb-B190-70B43DE3B0F3
+💡These mutexes previously assocaited with: ShadowRoot Ransomware, Stealer Trojans etc.
+
+Akira Ransomware Samples
+========================
+
+MD5:
+fc5be86c846e93b0a65dd18849205514
+b71956ba98abacf4b4dcc5a0453baaa2
+7486f1a88d6a3ae96fa08f882d452399
+5eadd67bec799465fa27a17d6bf93e2d
+7bf5cbca413b327c655e2270645955d9
+feb81a8d7e0f91d6f74b440cdd3c2f28
+436c014614477e79696e838d6b605f4e
+f59d26d27cbab79fe84ef2e7e3b718f9
+e58ed2788bada8d807ebb29e18d86f86
+b163803130f466db74f68a19f9cee11e
+56f673b1d3d65dce3ef3c8754098df04
+4b807353dfbeadaddb392627e27470f9
+e57340a208ac9d95a1f015a5d6d98b94
+e8139b0bc60a930586cf3af6fa5ea573
+a1f4931992bf05e9bff4b173c15cab15
+08bd63480cd313d2e219448ac28f72cd
+
+Mutexes
+=======
+_SHuassist.mtx
+C20CD437-BA6D-4ebb-B190-70B43DE3B0F3
+
+Contributed to AbuseCH: https://bazaar.abuse.ch/user/15889/
+Twitter: @RakeshKrish12

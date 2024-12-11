@@ -1,23 +1,22 @@
-🚨Exposing DragonForce Ransomware Group Login Panel
-====================================================
-
-💡DragonForce Ransomware using notable Russian Bulletproof service Proton66 to host their Login Panels!
-
-🌐http://45.135.232.195:3001/login
-🌐http://45.135.232.195:2001/login
-Body Hash SHA1: 9f082dadacd8a4d828f48330f4d8cf38ec5d70cc
-
-📍45.135.232.195 🇷🇺
-AS#: AS198953
-AS Name: Proton66
-
-💡Hosted with Proton66, which is a popular choice among criminals.
-
-DRAGONFORCE
-===========
+DRAGONFORCE INTRO
+=================
 📌105 Victims since December 2023
 📌Most affected Sector: Manufacturing, Construction
 📌Most affected Country: 🇺🇸 🇬🇧 🇦🇺 🇨🇦 🇮🇹
 📌Notable Victims: Palau Government, Yakult Australia, Coca-Cola Singapore
 📌Used Tools: Cobalt Strike, SystemBC, Mimikatz, ADFind, Powershell
+
+IOCs - MD5
+==========
+2dd7cd2bf15eec7d62689435fca9c49c
+3c311cabe7de6a8c104f8f10541d392d
+12e22f588f6128cf1a042d1122556cd2
+e4a4fc96188310b7b07e7c0525b5c0aa
+15634dc79981e7fba25fb8530cedb981
+8bcd83352bbd52ca7bda998a52dd0e5c
+6c755a742f2b2e5c1820f57d0338365f
+
+45.135.232.195
+http://45.135.232.195:3001/login
+http://45.135.232.195:2001/login
 

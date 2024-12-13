@@ -1,0 +1,34 @@
+TOR DLS: termiteuslbumdge2zmfmfcsrvmvsfe4gvyudc5j6cdnisnhtftvokid.onion 
+TOR Archive: pqw3hepvky2pgyyv6dupvx47cm2gxzwop6dfei3i67dj76tdj6alplqd.onion
+
+TERMITE RANSOMWARE
+==================
+📌The DLS of the group appeared in 17th November 2024
+📌8 Victims listed as of now
+📌Most affected Sector: Manufacturing, Healthcare
+📌Most affected Country: 🇺🇸 🇨🇦 🇫🇷 🇩🇪 🇴🇲
+📌Notable Victims: Blue Yonder, Oman Oil
+📌Used Tools: CVE-2024-50623 (Cleo)
+
+MD5: 4c58195328f5b5e4a37aa6f42b386172
+SHA-1: dbd05e2da5385928cbeb7b9695e825c588bede8e
+SHA-256: 30a8cf3e6863030c762b468bf48d679f3dd053a80793770443938fa18de89617
+Filename: cg.exe
+First Upload: Reunion on 20th Nove
+mber 2024
+Creation Date: 7th November 2024
+
+MD5: 6b06aae5ec596cdbc1b9d4c457fd5f81
+SHA-1: a515b7d89676b1401eeb9eb776190a1179c386cf
+SHA-256: f0ec54b9dc2e64c214e92b521933cee172283ff5c942cf84fae4ec5b03abab55
+Filename: temp/watsonvillehospital.com.exe
+First Upload: US on 6th December 2024
+Creation Date: 30th November 2024
+
+IOCs
+====
+http://termiteuslbumdge2zmfmfcsrvmvsfe4gvyudc5j6cdnisnhtftvokid.onion/
+termiteuslbumdge2zmfmfcsrvmvsfe4gvyudc5j6cdnisnhtftvokid.onion
+pqw3hepvky2pgyyv6dupvx47cm2gxzwop6dfei3i67dj76tdj6alplqd.onion
+4c58195328f5b5e4a37aa6f42b386172
+6b06aae5ec596cdbc1b9d4c457fd5f81

@@ -18,8 +18,7 @@ MD5: 4c58195328f5b5e4a37aa6f42b386172
 SHA-1: dbd05e2da5385928cbeb7b9695e825c588bede8e
 SHA-256: 30a8cf3e6863030c762b468bf48d679f3dd053a80793770443938fa18de89617
 Filename: cg.exe
-First Upload: Reunion on 20th Nove
-mber 2024
+First Upload: Reunion on 20th November 2024
 Creation Date: 7th November 2024
 
 MD5: 6b06aae5ec596cdbc1b9d4c457fd5f81
@@ -28,6 +27,14 @@ SHA-256: f0ec54b9dc2e64c214e92b521933cee172283ff5c942cf84fae4ec5b03abab55
 Filename: temp/watsonvillehospital.com.exe
 First Upload: US on 6th December 2024
 Creation Date: 30th November 2024
+
+🇩🇪 193.43.104.153: BlueVPS on Linux
+
+🇩🇪 87.121.45.33: Bulletproof Host running Ubuntu
+Suspected using: Net1 🇧🇬
+services.ssh.server_host_key.fingerprint_sha256: bf31eae5220eb5dd1a363ffa1f870e6418aa98ee2960caa3957a5fa9558da121
+
+NOTE: As these IPs are in Access-Control-Allow-Origin; these IPs have indirect connection (for sure) with Termite Ransomware group.
 
 IOCs
 ====

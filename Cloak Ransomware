@@ -1,0 +1,70 @@
+🕰️CLOAK RANSOMWARE
+===================
+📌Emerged in August 2023
+📌Currently have 98 Victims (as of now)
+📌Uses dedicated leak sites for each victim
+💡Unlike other Ransomware Groups, Germany (18) is more targeted by the group surpassing US (14)
+💡Most infected sector: Healthcare, Manufacture, Banking, Construction
+📌Uses Ingress Tool Transfer for Data Exfiltration
+📌Average Breach Size is about 100GB
+💡New victims are concealed to mask their identity as Negotiation Phase going on
+📌Failed negotiation leads to the data leak and data trade
+💡The sample seems to be forked from Babuk and ARCrypter
+
+
+
+IOC
+===
+
+Sample
+======
+MD5: 31c6032e6cfa6c514c0b0b30fe75c66e
+Filename: MicrosoftWindowsUpdate.exe 
+File Size: 192 KB
+Mutex: -A- -R- -C- -R- -Y- -P- -T- -E- -R- 
+Used: ARCrypter, Babuk 
+Encryption Algo: HC-128
+Encryption Keys: Curve25519, SHA512
+
+TOR DLS: cloak7jpvcb73rtx2ff7kaw2kholu7bdiivxpzbhlny4ybz75dpxckqd.onion
+
+File Servers
+============
+http://jpef6snenchj3rxgugsozky3i34q66vmcoqy7neyu37xxiwxrad5doid.onion 	
+http://glrw7ip5gz2fv2njbiqfvg5uiwavllw5zuixko4yrpj5hta7fjwqpjqd.onion 	
+http://vicjwr6abknvcfjomocyb3koloidahc3hidwt5sq2ytwk7yepwfzlsid.onion 	
+http://puzhh5aykks65qneqantprbqjt6k5bnigmwqwv6yvkxvkfu4ivva5mid.onion 	
+http://piatupks5hai3oafo66xlj2eg2fbzjqy2j7gy3nyhqmnthlrwvrsolad.onion 	
+http://necnstpnzuaovjocmiuv7ned7bstczit3kkvotqxl53xo5rfohndlvid.onion 	
+http://ey2eak3vq5zbeu4s56m25mm4kvszy2is7gyjs6tsfzmhptbyijkzn2yd.onion 	
+http://b53cqorlo7uftd3ymxguwnn7rfoz54ryoojjqxowdsaw2bahvuppntyd.onion
+http://l3bbtg2p2gp2x43e2nngzkf7ab52k4mef3saowrl6m5notkts7p2vfyd.onion 	
+http://vsdp5gqwrunytxw4f6dbxznux66aaewlwyenw3rantba4lwyzbckgfid.onion 	
+http://a6gq22ngckken4xksz5ytl66sqeylh45ktke5pnbzfdksw5sfum5lvqd.onion 	
+http://nbfxtlikrnicuht5yvvhlujpnh3spzjmek6eujeyck2ws34yytxjdhyd.onion 	
+http://ziburuf5kh4phq5i6nmukpke7uruflhlvfexfmjwiwgghapz6ug3ajyd.onion 	
+http://am3mzzguimx45wxywpukvwf3gobt3r4bidxzntjpsmqqge4s3vi2vvid.onion 	
+http://occwme3xtlnzk3nlhn5ewsgodswrp6pysmmk7kcxqgj4hyiwkhoqcuyd.onion 	
+http://qyywpuxysuur4exynwwwhu6nbd2f5vpj3h4tjbltfhwd4blamd4fppqd.onion 	
+http://hsn2e745m36crxj2gmnrp432vbsyarhwvq3fgcyus345dp3oqlrltuad.onion 	
+http://pbbeck4xcy3jzbu6lv5db3c5n3n44wngmpb5jj3yo4px32mlznziwbid.onion 	
+http://hmxt5u75kj5qxqjqhckgaoda6zndgxcazleersyioat4iuq3ldgmkcid.onion 	
+http://cii64fki62v2mudocjvgarzlmnpqrfp6xb7korapmdd7qmjpnccgduyd.onion 	
+http://jrmayo7rvsx6sbv36djpdge6iwuem67dhccpctera2ykmqr6kplhayad.onion 	
+http://ljrswxeei4isir3s5i7xmlzpx6sabmkgd7mvjrimcqwu7rqpn7bdjfad.onion 	
+http://qixf7fqw237ikunw4ey22jsc4deltducf6zn4mq4ldyqab3ij3gehlyd.onion 	
+http://ztqugnw4upfmd6mu3l6sdz2mfvzxzouhwgqqowyjeedgsmz733dqq2ad.onion 	
+http://u66kitj46wmr5onijbbkg7cq45crcs66c563kyqy6klxm5c2nz42ujid.onion 	
+http://e7gxrudyx2o733zlernyqqv623wyky5teor5xhnnx2g6dt4vf6jwn2yd.onion 	
+http://qx2b2on5phkj4jczfpzfkb5cuhxn7wfqbgdu27pmxyzamoim3jqff6qd.onion 	
+http://37izr5yow5d673agew22miyy3inbqncuv7gfp5372yciuzvadqef66yd.onion 	
+http://d2wqt4kek62s35hjeankc75nis4zn4e5i6zdtmfkyeevr7fygpf2iiid.onion 	
+http://sclj2rax5ljisew3v4msecylzo7iieqw25kcl7io4szei4qcujxixaid.onion 	
+http://xyy2fymbdytltylyuicasuvw7vw3gtgm3cvvjskh4jnzfg3gp7dqgnqd.onion
+
+
+CHAT PANELS
+===========
+http://6mw4yczxeqoiq7rgwnpi75qxsjd5jykuutpatflybodwlckoarhfdlid.onion/ 	
+http://7puvv4qtcrigzbxshqibkpibzbmrs6thb7s6uf3tisqfp3t2ddpp66id.onion/ 
+http://txkgrijl5kieudmcotxoqdpxjwuje2a3ljdmudj2robyjzu3dpke66qd.onion/

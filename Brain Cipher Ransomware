@@ -1,0 +1,31 @@
+Brain Cipher Ransomware
+=======================
+📌Brain Cipher emerged in July 2024, infected about 23 victims (as of 2024 December)
+📌Notable for leaking Indonesia's National Data Center
+📌Listed Deloitte UK; but didn't post any data
+📌Most Targeted Countries: 🇺🇸, 🇫🇷, 🇮🇱, 🇲🇽
+📌Most Targeted Sector: Service, Law, Manufacturer
+📌Using Network Tunneling for C2 Communications
+📌Brain Cipher using the leaked build of LockBit Black for their operations
+📌Most of their samples are collected from VX Underground Repository
+📌Brain Cipher Extensions: KUsfyVlDo, symy1n6ah
+📌The group suspected to have exploited CVE-2023-28252 (Microsoft Windows CLFS Driver Privilege Escalation Vulnerability)
+
+DLS: vkvsgl7lhipjirmz6j5ubp3w3bwvxgcdbpi3fsbqngfynetqtw4w5hyd.onion
+
+Chat Panel
+==========
+77nrxelcwh47yikvpaz2rvtsten4sen2elybo5r5st6wlxsbitv255qd.onion
+mybmtbgd7aprdnw2ekxht5qap5daam2wch25coqerrq2zdioanob34ad.onion
+p6wmotxzvg34tdmpwm4beqgrcyp5iys43snkccsahnw74la3k3xx6pad.onion 
+
+File Server: cuuhrxbg52c5agytmtjpwfu7mrs4xtaitc4mukkiy2kqdxeqbcmuhaid.onion
+
+IOC (MD5 SAMPLES)
+================
+523c501118ef5d7957ce54aee86d9b1d
+9c5698924d4d1881efaf88651a304cb3
+448f1796fe8de02194b21c0715e0a5f6
+b32a8951fc4c2e4c2d63d17200ca0032
+714b31629c37dee57038ca4e52ef65ac
+71c109f3bf4da2fc0173b9bcff07e979

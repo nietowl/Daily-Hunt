@@ -1,0 +1,81 @@
+CROWDSTRIKE PHISHING: UNFOLDING MORE SECRETS
+============================================
+
+Found (in total) 10 Samples/Artifacts related to Crowdstrike-Cryptomining Phishing Campaign
+
+7d6b277566cd13c79fc985cd532837ae: cs-applicant-crm-installer.exe
+894418c09c8e3add9286bd62e570faed: startup.bat
+df4417ad455d80fa25493eed05d9577c: MAIL.pdf
+3507681832e06762782432accd8a7a95: startup.bat
+467c300ffccaae96a568700dca5a4590: aW5zdHJ1Y3Rpb25zCg==.txt
+16c4ce73d7d5ecb14923da080a5edccd: aW5zdHJ1Y3Rpb25zCg==.txt
+9e2a32ed90087768cbb9c784353c441f: cs-applicant-crm-installer.zip
+6bec07043fc205ed50810bb9316c8148: cs-applicant-crm-installer.exe
+0952e14f5fcf7d08384bcf043a5deb4d: 607715e4-d479-49ac-9b74-d1b6af4a5bfe.tmp
+68727f0b3cd3d7a88a42df8abe811090: 5ec46ec5-af17-48bf-8837-e84371c391c3.tmp
+
+🎣cscrm-hiring.com
+📍93.115.172.41 🇩🇪: Used to host Mining Pool and Phishing Domain
+📍91.227.33.146 🇦🇹: Phishing PDF communicated
+
+💡INTEL 
+=======
+📌The Crowdstrike Phishing is believed to be kick-started on 23rd December 2024, as they registered the Phishing Domain
+📌The attackers used a genuine email address along with Phishing domain to get genuinity
+📌Latest version of XMRig 6.22.2 for mining is being used, which was released just 2 months back (November 2024)
+📌With the latest build, it supports GhostRider Algorithm for mining.
+📌GhostRider is designed to consume less energy compared to other algorithms, making it a preferred choice for miners
+📌The group not only used Monero for mining, but also mines Raptoreum (RTM)
+📌Raptoreum is mainly targeted for CPU Mining and is ASIC proof, also defends 51% attack by implementing Chain Locks
+📌It's interesting to note that the logo of Raptoreum is also a bird similar to Crowdstrike
+📌Functionalities of MHDDoS tool spotted, which hints the usage of the tool for the attack.
+📌MHDDoS is a Python script that provides 56 methods for launching various types of DDoS attacks, including Layer 7 and 4 attacks, along with additional tools for testing and analysis.
+📌In the luring PDF, the group had used the original physical location of Crowdstrike, located to Austin, Texas 
+📌One of the observed IP was previously associated with Sophos and Fortinet Phishing in 2023
+📌Used Error Code: CRM246587
+
+IOCs
+====
+
+MD5 Hashes
+==========
+7d6b277566cd13c79fc985cd532837ae
+894418c09c8e3add9286bd62e570faed
+df4417ad455d80fa25493eed05d9577c
+3507681832e06762782432accd8a7a95
+467c300ffccaae96a568700dca5a4590
+16c4ce73d7d5ecb14923da080a5edccd
+9e2a32ed90087768cbb9c784353c441f 
+6bec07043fc205ed50810bb9316c8148 
+0952e14f5fcf7d08384bcf043a5deb4d 
+68727f0b3cd3d7a88a42df8abe811090
+
+IPs
+===
+51.124.78.146
+91.227.33.146
+93.115.172.41
+80.78.24.30
+
+Domains
+=======
+miningpoolstats.stream
+cscrm-hiring.com
+
+URLs
+====
+http://93.115.172.41/private/aW5zdHJ1Y3Rpb25zCg==.txt
+http://93.115.172.41/private/aW5zdHJ1Y3Rpb25zCg==.txt 200
+http://93.115.172.41/private/aW5zdHJ1Y3Rpb25zCg==.txt
+http://93.115.172.41/private/aW5zdHJ1Y3Rpb25zCg==.txtI
+http://93.115.172.41/private/aW5zdHJ1Y3Rpb25zCg==.txtP
+http://93.115.172.41/private/aW5zdHJ1Y3Rpb25zCg==.txtl
+http://93.115.172.41/private/aW5zdHJ1Y3Rpb25zCg==.txts
+http://93.115.172.41/private/aW5zdHJ1Y3Rpb25zCg==.txtthoS4=lS
+http://93.115.172.41/private/aW5zdHJ1Y3Rpb25zCg==.txtthoW4
+https://cscrm-hiring.com
+
+📧Email Addresses
+=================
+support@cscrm-hiring.com
+hiring@cscrm-hiring.com

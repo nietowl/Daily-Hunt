@@ -4,6 +4,8 @@ LOCKBIT 4.0 EXECUTABLES
 =======================
 8ff61e4156c10b085e0c2233f24e8501
 1319da1523ec2a67bda016c15334c195
+b86aacec897b8376c23647c4f0e78fba
+15796971d60f9d71ad162060f0f76a02
 
 LBB_PS1.ps1
 ===========
@@ -14,11 +16,14 @@ e3a12d15768160d5c534cd99df9199e9
 42cbb4743ea016868d7a049a6c9fb3fc
 8015d634e9e5fd003885700bca4723d8
 0552d6338817c0b5991b56527f33ad0a
+ab18e1692b7ba3b99c854573aa2cb3dc
 
 LBB_PS1_obfuscated.ps1
 ======================
 a8e97fe5a7115e42759d67f7e4d88b0d
 d0457a54a4905ed5d2bb8a2b7ef7be0f
+2be48ff323cb01f43f28e4572cbe9b92
+0a12b53d92f56d3dafb4e68083f94654
 
 LBB_PS1_pass.ps1
 ================
@@ -26,6 +31,7 @@ LBB_PS1_pass.ps1
 d96d2bcf13d55740f3bb64d45d2db94d
 2b84852065e28974e4081826ff09ddc1
 e0411fcbbff0e20922d224c3ac8c811e
+eab3acdd2b9415686df2c0f8bacb08e9
 
 IP Communicating Powershell Files
 =================================

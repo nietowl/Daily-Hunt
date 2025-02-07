@@ -1,0 +1,57 @@
+Here is the collection of Malware MD5 Hashes used by Kimsuky/APT43 Group:-
+
+ForceCopy
+=========
+ca9b8df227469c7e6d745cc267db80ba
+f792d1864e7e92fe25daa73fe964bdea
+5e040663bbe55915a67f696a6aafb81a
+8b541e4da55cb41e3304bda5ea568eb7
+8ac5d4d3a68ca82b190bceb8cf7cb07e
+2af6fb5bc3137eb297c6560e267d8193
+
+PEBBLEDASH
+==========
+15dc6a28b875b4706bcc0db4a026aeb0
+7349683077ce4fcac77580848182ead9
+31345cc286bfb2b3edcee6c960f11c3f
+a573b15586e4313832f269b162a04514
+2c98bfc9f76352c82dc57edd98dce9a8
+
+POWERSHELL LOADER
+================= 
+88520295d17f287fd127830bb766712a
+16bdc9b9e5dd2ac93b09ac829273acc7
+cf0d378992be23bcaef7b03d339e7c74
+00317b9ff31f7aa93f7c7891e0202331
+d75da7701952f705f9fff67916db6a60
+5b0f404c73c288a2481442eb48cfc975
+
+
+NOTE: In this, we are not tracking RDP Wrap as it's a generalized tool which is commonly weaponized by TAs. Hence, we shall not mix up those IOCs with the legit ones. 
+
+
+INTEL
+=====
+📌Kimsuky uses DropBox IPs
+📌Kimsuky had made use of a VPS Service called InterServer which also provides Cloud VPS service, commonly denoted as IS-AS-1
+📌Such IPs are commonly used by Botnet like Mirai, MooBot etc
+📌Hostname Identified as: WIN-KEJVO9CLD80 for both IPs provided in the report
+
+
+High Confidence IPs
+===================
+74.50.94.175
+162.125.69.18
+162.125.3.15
+162.125.3.18
+162.125.6.18
+
+Low Confidence IPs
+==================
+162.125.1.15
+162.125.1.18
+162.125.65.18
+162.125.8.15
+162.125.8.18
+
+Reference Article: https://asec.ahnlab.com/en/86098/

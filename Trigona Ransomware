@@ -1,3 +1,12 @@
+TRIGONA INTEL
+=============
+📌Trigona Ransomware became active in late 2023
+📌About 100+ Samples are detected for EXE files and only 2 Linux ELF Variants are found
+📌About 80 Samples are sized at 342.50 KB
+📌The Timestamp for 72 File Samples are created on 21st November 2023
+📌The earliest variant can be traced to October 2023, sized at 1.78MB
+
+
 MD5 IOCs
 ========
 b59a9174ff768633e2cf5dfb16e516a8

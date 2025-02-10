@@ -6,6 +6,8 @@ TRIGONA INTEL
 📌The Timestamp for 72 File Samples are created on 21st November 2023
 📌The earliest variant can be traced to December 2022, sized at 1.09 MB
 📌The estimated Time-frame of this Ransomware Development Acitity can be spotted between December 2022 to May 2024
+📌The largest sample is sized at 1.78MB (August-October 2023) and the sample got trimmed to 160KB (November 2023)
+📌There are about 17 Entry Point Changes observed across 114 Samples
 
 
 MD5 IOCs

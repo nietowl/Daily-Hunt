@@ -4,7 +4,7 @@ TRIGONA INTEL
 📌About 100+ Samples are detected for EXE files and only 2 Linux ELF Variants are found
 📌About 80 Samples are sized at 342.50 KB
 📌The Timestamp for 72 File Samples are created on 21st November 2023
-📌The earliest variant can be traced to October 2023, sized at 1.78MB
+📌The earliest variant can be traced to December 2022, sized at 1.09 MB
 
 
 MD5 IOCs
@@ -113,3 +113,13 @@ ca33f9d7566d3578129c352bd5a93597
 0452d8379cae3490935f81a0dfea1a9e
 344c3f60bdccc98812b0dc5f9dc2f413
 9e5e96c4318ea5e8daab17ea456af069
+c6c511ba966328c9497c8aa9264fb733
+15d05dfa5cff0cfc86e5135155744385
+d0291a6d151395076d7fb7ca9b798125
+f58df2bfe9029301131370a318628026
+10403f08a869a83d5c8d81162b711453
+6ae62456341ad1a113597a50779c095a
+68635ad9d12f683071611bfd34c1ec34
+1852be15aa8dcf664291b3849bd348e4
+145d3ae9d1c6f1d4aa67e31fa32c32e9
+9bce9dae679419198574f4c9837085db

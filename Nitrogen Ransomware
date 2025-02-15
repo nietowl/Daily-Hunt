@@ -26,3 +26,17 @@ sqnnhgqr4iiwnkaih6vspyxmebz2vvjv3uybmjdynw6sne5plilunhyd.onion
 67hvtslok5a4cwjxfmidbgbunsvckypf2dwkpxg3y2sabar5b4jidmyd.onion
 hzyp7n436ecwo73xvrgnf5wmbjewszwut4h6vz4fu6f2oqd5zfcd7sad.onion
 6a5ib4udgwlkyl3zzeyenedcb7d33j2vq7egpqykr5457uiskeu6zjad.onion
+
+
+NITROGEN INTEL
+==============
+📌Nitrogen Ransomware became active in October 2024
+📌Appends the extension .nba after encryption
+📌Targeted: 🇺🇸, 🇨🇦
+📌Industries: Manufacturing, Construction, Retail, Banking, Hospitality, Service, Gaming
+📌Published 19 Victims (so far)
+💡Sample files are uploaded to MEGA and URLs are passed to client on their Chat Panel
+💡Standard Ransom Demand: €200.000
+💡Claims to perform DDoS Attack if not paid
+💡Dedicated Leak Onion Domains for each victim
+💡Upon the Code-Scan, there is a 39.4% code match with AwfulRobber Ransomware with 15.76% Code Match with Cactus Ransomware

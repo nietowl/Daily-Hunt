@@ -1,3 +1,6 @@
+NOTE: This is an extensive research on https://securityscorecard.com/wp-content/uploads/2025/02/Operation-Marstech-Mayhem-Report_021025_03.pdf
+DATE: FEBRUARY 2025
+
 MD5
 ===
 37b8837656d61a18b40ec4d5f1d3549b

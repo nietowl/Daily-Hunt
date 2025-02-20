@@ -1,6 +1,15 @@
 NOTE: This is an extensive research on https://securityscorecard.com/wp-content/uploads/2025/02/Operation-Marstech-Mayhem-Report_021025_03.pdf
 DATE: FEBRUARY 2025
 
+💡INTEL
+========
+📌The group uses Stark Industry's Bulletproof Hosting Service to host malwares and communicate directly
+📌Found Strela Stealer used in Marstech Campaign
+📌Some of the JS Malware used in the campaign are BeaverTail which dates back to 2023 DPRK Lazarus
+📌2 Hostnames found are:- DESKTOP-GKGI28A and DESKTOP-2NFCDE2
+📌Lazarus did not much invested in developing newer methods or tools as previously used malwares (Job Recruitment Phishing, BeaverTail etc) are being used in Marstech Campaign
+📌Primarily focused on NPM Packages infection
+
 MD5
 ===
 37b8837656d61a18b40ec4d5f1d3549b
@@ -32,8 +41,15 @@ IPs
 ===
 95.216.251.178
 95.164.45.239
-147.124.214.237: Used by Lazarus
-95.216.251.178: Susp used by Lazarus
+147.124.214.237
+95.216.251.178
 10.10.51.212 : Found in BeaverTail
 74.119.194.129
-5.253.43.122 (mclip)
+5.253.43.122 (mclip, brow)
+
+HostNames
+=========
+DESKTOP-GKGI28A
+DESKTOP-2NFCDE2
+
+

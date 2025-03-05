@@ -1,0 +1,59 @@
+INTEL
+====
+🚨FTP Server📂of QILIN Ransomware found!
+
+ftp://dataShare:nX4aJxu3rYUMiLjCMtuJYTKS@85.209.11.49
+
+📍IP: 85.209.11.49
+📍Location: 🇷🇺
+📌ASN: Chang Way Tech
+📍ASN Location: HongKong 🇭🇰
+💡Web Server: IIS (FTP)
+💡Running on: Windows Server 2019 with Windows 10
+💡Host Machine: WIN-LIVFRVQFMKO
+
+85.209.11.49
+============
+📌Presence of Cobalt Strike, Vidar Stealer🔑
+📌Used as Reverse Proxy for Cobalt Strike on attacks
+
+MARCH 2025 - UPDATE
+-------------------
+🚨QILIN's FTP Migrated to a Non-Malicious Infrastructure
+========================================================
+
+176.113.115.97 🇭🇰
+176.113.115.209 🇭🇰
+ASN: AS57678
+ftp://dataShare:nX4aJxu3rYUMiLjCMtuJYTKS@176.113.115.97
+ftp://dataShare:2bTWYKNn7aK7Rqp9mnv3@176.113.115.209
+
+📌An FTP shift from Russian Server 🇷🇺 to Hong Kong Server 🇭🇰 observed in March 2024 by Qilin Ransomware Operators
+📌Though the IP has not yet been recorded any abuse; the ASN is highly malicious with the presence of Vidar Stealer, Lumma Stealer, AsyncRAT, SystemBC, Amadey etc
+📌Promotes Bearhost Bulletproof Servers
+📌Wikileaksv2 - Qilin's Surface blog registered with Red Bytes LLC, based in Russia
+📌Red Bytes LLC was notably associated with SliverC2, Cobalt Strike previously and also used by Russian Hackers against US networks in 2020
+
+
+IOC
+===
+http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/
+wikileaks-v2.com
+wikileaks-v2.net
+wikileaksv2.com
+ftp://dataShare:nX4aJxu3rYUMiLjCMtuJYTKS@85.209.11.49 
+ftp://dataShare:2bTWYKNn7aK7Rqp9mnv3@188.119.66.189
+ftp://dataShare:nX4aJxu3rYUMiLjCMtuJYTKS@176.113.115.97
+ftp://dataShare:2bTWYKNn7aK7Rqp9mnv3@176.113.115.209
+http://ozsxj4hwxub7gio347ac7tyqqozvfioty37skqilzo2oqfs4cw2mgtyd.onion/ 
+http://24kckepr3tdbcomkimbov5nqv2alos6vmrmlxdr76lfmkgegukubctyd.onion
+http://wlh3dpptx2gt7nsxcor37a3kiyaiy6qwhdv7o6nl6iuniu5ycze5ydid.onion/blog
+http://kbsqoivihgdmwczmxkbovk7ss2dcynitwhhfu5yw725dboqo5kthfaad.onion/
+
+31.41.244.100
+85.209.11.49
+176.113.115.209
+176.113.115.97
+188.119.66.189
+
+WIN-LIVFRVQFMKO
